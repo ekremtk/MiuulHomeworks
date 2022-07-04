@@ -1,0 +1,18 @@
+
+
+* Görev 1: Kendi isminizde bir virtual environment oluşturunuz, oluşturma esnasında python 3 kurulumu yapınız.</b>
+
+<p align="center">
+<img height=75 src="https://github.com/ekremtk/MiuulHomeworks/blob/master/figures/HW2-G1.png"/>
+</p>
+
+
+* Görev 2: Oluşturduğunuz environment'ı aktif ediniz.
+* Görev 3: Yüklü paketleri listeleyiniz.
+* Görev 4: Environment içerisine Numpy'ın güncel versiyonunu ve Pandas'ın1.2.1 versiyonunu aynı anda indiriniz.
+* Görev 5: İndirilen Numpy'ın versiyonu nedir?
+* Görev 6: Pandas'ı upgrade ediniz. Yeni versiyonu nedir?
+* Görev 7: Numpy'ı environment'tan siliniz.
+* Görev 8: Seaborn ve matplotlib kütüphanesinin güncel versiyonlarını aynı anda indiriniz.
+* Görev 9: Virtual environment içindeki kütüphaneleri versiyon bilgisi ile beraber export ediniz ve yaml dosyasını inceleyiniz.
+* Görev 10: Oluşturduğunuz environment'i siliniz. Önce environment'i deactivate ediniz.
