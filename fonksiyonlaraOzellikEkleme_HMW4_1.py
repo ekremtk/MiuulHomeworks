@@ -36,16 +36,17 @@ def cat_summary(dataframe, col_name, plot=0):
                         "Ratio": 100 * dataframe[col_name].value_counts() / len(dataframe)}))
     print("##########################################")
 
-    if (plot == 1):
+    if plot == 1:
         sns.countplot(x=dataframe[col_name], data=dataframe).set(title="CountPlot")
         plt.show(block=True)
-    elif (plot == 2):
+    elif plot == 2:
         sns.displot(x=dataframe[col_name], data=dataframe).set(title="DistPlot")
         plt.show(block=True)
-    elif (plot == 3):
+    elif plot == 3:
         plt.pie(x=dataframe[col_name].value_counts(), labels=list(dataframe[col_name].unique()))
         plt.show()
     else:
         pass
+
 
 cat_summary(df, "sex", plot=3)
