@@ -6,7 +6,7 @@ Bu özellik argümanla biçimlendirilebilir olsun.
 Var olan özelliği de argümanla kontrol edilebilir hale getirebilirsiniz.
 
 sns.countplot(x=dataframe["embarked"], data=dataframe)
-        plt.show(block=True)
+        plt.show(block=True)h
 """
 
 import pandas as pd
